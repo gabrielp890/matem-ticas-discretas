@@ -25,7 +25,7 @@ public class NumerosPrimos {
      * @return cadena de strings con los factores primos
      */
     public String nprimos(String numero) {
-        double residuo, num, i = 2, temp = 0;
+        double residuo, num, i = 2;
         num = Double.parseDouble(numero);
         int raiz = (int) Math.sqrt(num);
         primos = "";
